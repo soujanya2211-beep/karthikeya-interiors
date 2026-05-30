@@ -126,14 +126,37 @@ a { text-decoration: none; color: inherit; }
 /* ===== Portfolio ===== */
 .shot { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); position: relative; }
 .shot--wide { grid-column: span 2; grid-row: span 2; }
-.shot img { width: 100%; height: 100%; object-fit: cover; transition: transform .5s ease; }
-.shot:hover img { transform: scale(1.06); }
-.shot__ph {
-  width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; text-align: center;
-  font-family: var(--serif); font-size: 1.1rem; color: var(--wood);
-  background: linear-gradient(135deg, var(--cream), var(--beige));
-  border: 1px dashed rgba(138,90,43,.4); padding: 14px;
+.shot img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.shot--wide:hover img { transform: scale(1.05); }
+.shot__cap {
+  position: absolute; left: 0; right: 0; bottom: 0; padding: 22px 24px;
+  display: flex; flex-direction: column; gap: 2px;
+  background: linear-gradient(to top, rgba(10,10,10,.85), rgba(10,10,10,.15) 70%, transparent);
+  color: #fff;
 }
+.shot__cap strong { font-family: var(--serif); font-size: 1.4rem; line-height: 1.2; }
+.shot__cap span { font-size: .85rem; color: var(--yellow); font-weight: 500; }
+
+/* Interactive category tiles */
+.tile {
+  border: none; cursor: pointer; text-align: left; border-radius: var(--radius);
+  padding: 24px 22px; display: flex; flex-direction: column; gap: 5px; justify-content: flex-end;
+  color: var(--ink); position: relative; overflow: hidden; font-family: var(--sans);
+  box-shadow: var(--shadow); transition: transform .25s ease, box-shadow .25s ease;
+}
+.tile::after { content: ""; position: absolute; left: 0; top: 0; width: 100%; height: 4px; background: linear-gradient(90deg, var(--gold), var(--yellow)); transform: scaleX(0); transform-origin: left; transition: transform .3s ease; }
+.tile:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.tile:hover::after { transform: scaleX(1); }
+.tile--kitchen { background: linear-gradient(150deg, #FFF6E4, #F3D7A0); }
+.tile--wardrobe { background: linear-gradient(150deg, #F7F4EF, #E1C7A0); }
+.tile--ceiling { background: linear-gradient(150deg, #F4EEE6, #D8B48A); }
+.tile--office { background: linear-gradient(150deg, #FBF6EC, #EAD3A4); }
+.tile__icon { font-size: 2rem; margin-bottom: 6px; }
+.tile__cat { font-family: var(--serif); font-size: 1.25rem; font-weight: 700; color: var(--black); }
+.tile__desc { font-size: .85rem; color: #5c4a32; }
+.tile__cta { font-size: .82rem; font-weight: 600; color: var(--wood); opacity: 0; transform: translateY(8px); transition: opacity .25s ease, transform .25s ease; }
+.tile:hover .tile__cta { opacity: 1; transform: none; }
+
 .portfolio__note { text-align: center; margin-top: 34px; color: var(--muted); }
 
 /* ===== About ===== */

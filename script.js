@@ -32,6 +32,11 @@
       why5: "Ready to Occupy", why5_d: "Move-in ready spaces, hassle free.",
       portfolio_eyebrow: "Our Work", portfolio_title: "Portfolio", portfolio_lead: "A glimpse of the spaces we create.",
       shot_kitchen: "Modular Kitchen", shot_living: "Living Room", shot_bedroom: "Bedroom", shot_office: "Office Interior",
+      feat_title: "Modern Living Room", feat_sub: "Turnkey Interior • Hyderabad",
+      tile_cta: "Enquire on WhatsApp →",
+      tile_kitchen_d: "Smart, elegant cooking spaces", tile_wardrobe_d: "Custom storage with style",
+      tile_ceiling_d: "Modern ceilings & lighting", tile_office_d: "Productive, premium workspaces",
+      wa_portfolio: "Hello Karthikieya Interiors! I'd like to see your %s designs. Please share your portfolio.",
       portfolio_note: "Want to see more? Message us on WhatsApp for our full project gallery.",
       about_eyebrow: "About Us", about_title: "Affordable Luxury Interiors in Hyderabad",
       about_p1: "Karthikieya Interiors is a Hyderabad-based interior solutions company offering complete residential and commercial interior services. We specialise in modern interior design, modular kitchens, wardrobes, TV units, wall painting, electrical work, deep cleaning and complete turnkey solutions.",
@@ -78,6 +83,11 @@
       why5: "నివాసానికి సిద్ధం", why5_d: "ఇబ్బంది లేకుండా సిద్ధమైన ప్రదేశాలు.",
       portfolio_eyebrow: "మా పని", portfolio_title: "పోర్ట్‌ఫోలియో", portfolio_lead: "మేము సృష్టించే ప్రదేశాల ఒక సంగ్రహం.",
       shot_kitchen: "మాడ్యులర్ కిచెన్", shot_living: "లివింగ్ రూమ్", shot_bedroom: "బెడ్‌రూమ్", shot_office: "ఆఫీస్ ఇంటీరియర్",
+      feat_title: "ఆధునిక లివింగ్ రూమ్", feat_sub: "టర్న్‌కీ ఇంటీరియర్ • హైదరాబాద్",
+      tile_cta: "వాట్సాప్‌లో అడగండి →",
+      tile_kitchen_d: "స్మార్ట్, అందమైన వంట ప్రదేశాలు", tile_wardrobe_d: "శైలితో కస్టమ్ నిల్వ",
+      tile_ceiling_d: "ఆధునిక సీలింగ్ & లైటింగ్", tile_office_d: "ఉత్పాదక, ప్రీమియం కార్యస్థలాలు",
+      wa_portfolio: "నమస్తే కార్తికేయ ఇంటీరియర్స్! నేను మీ %s డిజైన్లను చూడాలనుకుంటున్నాను. దయచేసి మీ పోర్ట్‌ఫోలియోను పంపండి.",
       portfolio_note: "మరిన్ని చూడాలనుందా? మా పూర్తి గ్యాలరీ కోసం వాట్సాప్‌లో సందేశం పంపండి.",
       about_eyebrow: "మా గురించి", about_title: "హైదరాబాద్‌లో అందుబాటు ధర లగ్జరీ ఇంటీరియర్స్",
       about_p1: "కార్తికేయ ఇంటీరియర్స్ హైదరాబాద్ ఆధారిత ఇంటీరియర్ సంస్థ. ఇంటీరియర్ డిజైన్, మాడ్యులర్ కిచెన్‌లు, వార్డ్‌రోబ్‌లు, టీవీ యూనిట్లు, వాల్ పెయింటింగ్, ఎలక్ట్రికల్, డీప్ క్లీనింగ్ మరియు పూర్తి టర్న్‌కీ సేవలను అందిస్తాం.",
@@ -124,6 +134,11 @@
       why5: "रहने के लिए तैयार", why5_d: "बिना झंझट मूव-इन रेडी स्थान।",
       portfolio_eyebrow: "हमारा काम", portfolio_title: "पोर्टफोलियो", portfolio_lead: "हमारे बनाए स्थानों की एक झलक।",
       shot_kitchen: "मॉड्यूलर किचन", shot_living: "लिविंग रूम", shot_bedroom: "बेडरूम", shot_office: "ऑफिस इंटीरियर",
+      feat_title: "आधुनिक लिविंग रूम", feat_sub: "टर्नकी इंटीरियर • हैदराबाद",
+      tile_cta: "व्हाट्सएप पर पूछें →",
+      tile_kitchen_d: "स्मार्ट, सुंदर रसोई स्थान", tile_wardrobe_d: "शैली के साथ कस्टम भंडारण",
+      tile_ceiling_d: "आधुनिक सीलिंग और लाइटिंग", tile_office_d: "उत्पादक, प्रीमियम कार्यस्थल",
+      wa_portfolio: "नमस्ते कार्तिकेया इंटीरियर्स! मैं आपके %s डिज़ाइन देखना चाहता/चाहती हूँ। कृपया अपना पोर्टफोलियो साझा करें।",
       portfolio_note: "और देखना चाहते हैं? हमारी पूरी गैलरी के लिए व्हाट्सएप पर संदेश भेजें।",
       about_eyebrow: "हमारे बारे में", about_title: "हैदराबाद में किफायती लक्जरी इंटीरियर्स",
       about_p1: "कार्तिकेया इंटीरियर्स हैदराबाद स्थित इंटीरियर कंपनी है। हम इंटीरियर डिज़ाइन, मॉड्यूलर किचन, वार्डरोब, टीवी यूनिट, वॉल पेंटिंग, इलेक्ट्रिकल कार्य, डीप क्लीनिंग और संपूर्ण टर्नकी समाधान प्रदान करते हैं।",
@@ -204,6 +219,15 @@
       el.addEventListener("click", (e) => {
         e.preventDefault();
         openWhatsApp(t("wa_greeting"));
+        showToast(t("toast_sent"));
+      });
+    });
+
+    // portfolio category tiles -> whatsapp
+    document.querySelectorAll(".js-portfolio").forEach((tile) => {
+      tile.addEventListener("click", () => {
+        const cat = (tile.querySelector(".tile__cat") || {}).textContent || "";
+        openWhatsApp(t("wa_portfolio").replace("%s", cat.trim()));
         showToast(t("toast_sent"));
       });
     });
