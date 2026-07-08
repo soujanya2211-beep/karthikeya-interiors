@@ -192,6 +192,13 @@
     window.open(url, "_blank", "noopener");
   }
 
+  /* ---------- Analytics ---------- */
+  function trackEvent(name, params) {
+    if (typeof window.gtag === "function") {
+      window.gtag("event", name, params || {});
+    }
+  }
+
   /* ---------- Toast ---------- */
   let toastTimer;
   function showToast(msg) {
@@ -218,6 +225,14 @@
     document.querySelectorAll(".js-whatsapp").forEach((el) => {
       el.addEventListener("click", (e) => {
         e.preventDefault();
+        const source = el.classList.contains("wa-float")
+          ? "floating_button"
+          : el.closest(".hero")
+          ? "hero"
+          : el.closest(".footer")
+          ? "footer"
+          : "other";
+        trackEvent("generate_lead", { method: "whatsapp", source: source });
         openWhatsApp(t("wa_greeting"));
         showToast(t("toast_sent"));
       });
@@ -227,6 +242,7 @@
     document.querySelectorAll(".js-portfolio").forEach((tile) => {
       tile.addEventListener("click", () => {
         const cat = (tile.querySelector(".tile__cat") || {}).textContent || "";
+        trackEvent("generate_lead", { method: "whatsapp", source: "portfolio", item: cat.trim() });
         openWhatsApp(t("wa_portfolio").replace("%s", cat.trim()));
         showToast(t("toast_sent"));
       });
@@ -255,6 +271,7 @@
         ];
         if (message) lines.push(t("wa_l_details") + ": " + message);
 
+        trackEvent("generate_lead", { method: "quote_form", source: "quote_form", service: service });
         openWhatsApp(lines.join("\n"));
         showToast(t("toast_sent"));
         form.reset();
